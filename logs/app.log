@@ -1,0 +1,536 @@
+2026-02-07 22:37:59,699 - src.utils.logger - INFO - root:23 - Root endpoint accessed
+2026-02-07 22:38:33,876 - src.utils.logger - INFO - root:23 - Root endpoint accessed
+2026-02-07 22:39:33,806 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select pg_catalog.version()
+2026-02-07 22:39:33,806 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 22:39:34,404 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select current_schema()
+2026-02-07 22:39:34,405 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 22:39:34,932 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - show standard_conforming_strings
+2026-02-07 22:39:34,932 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 22:39:35,402 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-07 22:39:35,409 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email AS user_email, "user".role AS user_role, "user".id AS user_id, "user".hashed_password AS user_hashed_password, "user".created_at AS user_created_at, "user".updated_at AS user_updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s 
+ LIMIT %(param_1)s
+2026-02-07 22:39:35,409 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00055s] {'email_1': 'test@example.com', 'param_1': 1}
+2026-02-07 22:39:35,898 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-07 22:40:49,360 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-07 22:40:49,361 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email AS user_email, "user".role AS user_role, "user".id AS user_id, "user".hashed_password AS user_hashed_password, "user".created_at AS user_created_at, "user".updated_at AS user_updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s 
+ LIMIT %(param_1)s
+2026-02-07 22:40:49,361 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 73.95s ago] {'email_1': 'testuser@example.com', 'param_1': 1}
+2026-02-07 22:40:50,902 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-07 22:42:01,314 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-07 22:42:01,315 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email AS user_email, "user".role AS user_role, "user".id AS user_id, "user".hashed_password AS user_hashed_password, "user".created_at AS user_created_at, "user".updated_at AS user_updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s 
+ LIMIT %(param_1)s
+2026-02-07 22:42:01,316 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 145.9s ago] {'email_1': 'directtest@example.com', 'param_1': 1}
+2026-02-07 22:42:01,753 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-07 22:47:20,604 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select pg_catalog.version()
+2026-02-07 22:47:20,605 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 22:47:21,079 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select current_schema()
+2026-02-07 22:47:21,080 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 22:47:21,522 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - show standard_conforming_strings
+2026-02-07 22:47:21,522 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 22:47:22,647 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-07 22:47:22,654 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email AS user_email, "user".role AS user_role, "user".id AS user_id, "user".hashed_password AS user_hashed_password, "user".created_at AS user_created_at, "user".updated_at AS user_updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s 
+ LIMIT %(param_1)s
+2026-02-07 22:47:22,655 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00096s] {'email_1': 'pythontest@example.com', 'param_1': 1}
+2026-02-07 22:47:23,167 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-07 22:52:35,773 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select pg_catalog.version()
+2026-02-07 22:52:35,773 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 22:52:36,259 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select current_schema()
+2026-02-07 22:52:36,259 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 22:52:36,737 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - show standard_conforming_strings
+2026-02-07 22:52:36,737 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 22:52:37,203 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-07 22:52:37,218 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-07 22:52:37,219 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00055s] {'email_1': 'finaltest@example.com'}
+2026-02-07 22:52:37,700 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-07 22:53:07,962 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-07 22:53:07,963 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-07 22:53:07,963 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 30.75s ago] {'email_1': 'finaltest2@example.com'}
+2026-02-07 22:53:08,417 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-07 22:57:14,216 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select pg_catalog.version()
+2026-02-07 22:57:14,234 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 22:57:14,700 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select current_schema()
+2026-02-07 22:57:14,700 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 22:57:15,213 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - show standard_conforming_strings
+2026-02-07 22:57:15,213 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 22:57:15,692 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-07 22:57:15,705 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-07 22:57:15,706 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00055s] {'email_1': 'newuser2@example.com'}
+2026-02-07 22:57:16,224 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-07 23:00:29,815 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select pg_catalog.version()
+2026-02-07 23:00:29,816 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 23:00:30,290 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select current_schema()
+2026-02-07 23:00:30,290 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 23:00:30,743 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - show standard_conforming_strings
+2026-02-07 23:00:30,743 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-07 23:00:31,202 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-07 23:00:31,215 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-07 23:00:31,216 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00063s] {'email_1': 'workingtest@example.com'}
+2026-02-07 23:00:31,689 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-07 23:07:21,964 - src.utils.logger - INFO - root:23 - Root endpoint accessed
+2026-02-07 23:13:34,305 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-07 23:13:34,306 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-07 23:13:34,306 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 783.1s ago] {'email_1': 'minhalaslam03@gmail.com'}
+2026-02-07 23:15:53,752 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-07 23:15:53,753 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-07 23:15:53,754 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 922.5s ago] {'email_1': 'minhalaslam03@gmail.com'}
+2026-02-07 23:15:54,286 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-07 23:25:38,704 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-07 23:25:38,705 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-07 23:25:38,706 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 1507s ago] {'email_1': 'minhalaslam03@gmail.com'}
+2026-02-07 23:27:03,801 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-07 23:27:03,802 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-07 23:27:03,803 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 1593s ago] {'email_1': 'minhalaslam03@gmail.com'}
+2026-02-07 23:27:04,804 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-07 23:59:27,686 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-07 23:59:27,696 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-07 23:59:27,696 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 3536s ago] {'email_1': 'minhalaslam03@gmail.com'}
+2026-02-08 00:01:33,468 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 00:01:33,468 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 00:01:33,469 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 3662s ago] {'email_1': 'minhalaslam03@gmail.com'}
+2026-02-08 00:01:33,966 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-08 13:19:01,039 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select pg_catalog.version()
+2026-02-08 13:19:01,057 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 13:19:01,495 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select current_schema()
+2026-02-08 13:19:01,496 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 13:19:01,921 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - show standard_conforming_strings
+2026-02-08 13:19:01,922 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 13:19:02,346 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 13:19:02,360 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 13:19:02,360 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00054s] {'email_1': 'test@example.com'}
+2026-02-08 13:19:03,914 - passlib.handlers.bcrypt - WARNING - _load_backend_mixin:622 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\AA\AppData\Roaming\Python\Python313\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-02-08 13:19:04,068 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-08 13:19:11,590 - src.utils.logger - INFO - root:23 - Root endpoint accessed
+2026-02-08 13:21:49,657 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 13:21:49,658 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 13:21:49,658 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 167.3s ago] {'email_1': 'testuser@test.com'}
+2026-02-08 13:21:50,082 - passlib.handlers.bcrypt - WARNING - _load_backend_mixin:622 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\AA\AppData\Roaming\Python\Python313\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-02-08 13:21:50,098 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-08 13:24:00,910 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select pg_catalog.version()
+2026-02-08 13:24:00,910 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 13:24:01,344 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select current_schema()
+2026-02-08 13:24:01,344 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 13:24:01,778 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - show standard_conforming_strings
+2026-02-08 13:24:01,778 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 13:24:02,213 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 13:24:02,227 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 13:24:02,227 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00051s] {'email_1': 'demo@example.com'}
+2026-02-08 13:24:03,529 - passlib.handlers.bcrypt - WARNING - _load_backend_mixin:622 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\AA\AppData\Roaming\Python\Python313\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-02-08 13:24:04,357 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - INSERT INTO "user" (email, role, id, hashed_password, created_at, updated_at) VALUES (%(email)s, %(role)s, %(id)s::UUID, %(hashed_password)s, %(created_at)s, %(updated_at)s)
+2026-02-08 13:24:04,358 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00063s] {'email': 'demo@example.com', 'role': 'user', 'id': UUID('69a8442e-3962-40e8-8d3e-a33f12e6ed7f'), 'hashed_password': '$2b$12$nV99x6wzLwT49glpLlJ9x.vgw.nBWf4Q.58Lo7Pwum4JvKO.NG1U6', 'created_at': datetime.datetime(2026, 2, 8, 8, 24, 4, 354541), 'updated_at': datetime.datetime(2026, 2, 8, 8, 24, 4, 354806)}
+2026-02-08 13:24:04,671 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 13:24:04,892 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 13:24:04,896 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = %(pk_1)s::UUID
+2026-02-08 13:24:04,896 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00056s] {'pk_1': UUID('69a8442e-3962-40e8-8d3e-a33f12e6ed7f')}
+2026-02-08 13:24:05,522 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-08 13:24:37,460 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 13:24:37,461 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 13:24:37,461 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 35.23s ago] {'email_1': 'demo@example.com'}
+2026-02-08 13:24:38,602 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-08 13:43:55,029 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 13:43:55,030 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 13:43:55,030 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 1193s ago] {'email_1': 'demo@example.com'}
+2026-02-08 13:48:14,960 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select pg_catalog.version()
+2026-02-08 13:48:14,960 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 13:48:15,413 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select current_schema()
+2026-02-08 13:48:15,414 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 13:48:15,864 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - show standard_conforming_strings
+2026-02-08 13:48:15,865 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 13:48:16,313 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 13:48:16,326 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 13:48:16,326 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00052s] {'email_1': 'demo@example.com'}
+2026-02-08 13:48:17,033 - passlib.handlers.bcrypt - WARNING - _load_backend_mixin:622 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\AA\AppData\Roaming\Python\Python313\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-02-08 13:48:17,981 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 14:04:37,752 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select pg_catalog.version()
+2026-02-08 14:04:37,772 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 14:04:38,193 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select current_schema()
+2026-02-08 14:04:38,194 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 14:04:38,621 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - show standard_conforming_strings
+2026-02-08 14:04:38,622 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 14:04:39,045 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 14:04:39,058 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 14:04:39,058 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00051s] {'email_1': 'demo@example.com'}
+2026-02-08 14:04:39,560 - passlib.handlers.bcrypt - WARNING - _load_backend_mixin:622 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\AA\AppData\Roaming\Python\Python313\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-02-08 14:04:40,390 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 14:56:38,138 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 14:56:38,139 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 14:56:38,140 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 3119s ago] {'email_1': 'demo@example.com'}
+2026-02-08 14:56:39,570 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 14:58:30,103 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 14:58:30,104 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 14:58:30,104 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 3231s ago] {'email_1': 'minhalaslam03@gmail.com'}
+2026-02-08 14:58:30,566 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-08 14:58:41,272 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 14:58:41,290 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 14:58:41,290 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 3242s ago] {'email_1': 'minhalaslam03@gmail.com'}
+2026-02-08 14:58:41,700 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-08 15:02:41,389 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:02:41,390 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 15:02:41,390 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 3482s ago] {'email_1': 'minhalaslam03@gmail.com'}
+2026-02-08 15:02:41,819 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-08 15:04:39,081 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:04:39,082 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 15:04:39,082 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 3600s ago] {'email_1': 'minhalaslam03@gmail.com'}
+2026-02-08 15:04:39,550 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-08 15:04:54,807 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:04:54,808 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 15:04:54,808 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 3616s ago] {'email_1': 'minhalaslam03@gmail.com'}
+2026-02-08 15:04:55,782 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - INSERT INTO "user" (email, role, id, hashed_password, created_at, updated_at) VALUES (%(email)s, %(role)s, %(id)s::UUID, %(hashed_password)s, %(created_at)s, %(updated_at)s)
+2026-02-08 15:04:55,782 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00052s] {'email': 'minhalaslam03@gmail.com', 'role': 'user', 'id': UUID('247fee71-ee64-4135-821b-facc3d67a034'), 'hashed_password': '$2b$12$bdBuH581MwZbcFzMRTlFrOaWJKK7celDkmt24WwVfbVoo/0aNOkA6', 'created_at': datetime.datetime(2026, 2, 8, 10, 4, 55, 778528), 'updated_at': datetime.datetime(2026, 2, 8, 10, 4, 55, 778782)}
+2026-02-08 15:04:56,042 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:04:57,597 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:04:57,603 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = %(pk_1)s::UUID
+2026-02-08 15:04:57,604 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00069s] {'pk_1': UUID('247fee71-ee64-4135-821b-facc3d67a034')}
+2026-02-08 15:04:58,205 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:05:53,738 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:05:53,739 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 15:05:53,739 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 3675s ago] {'email_1': 'demo@12345'}
+2026-02-08 15:05:54,738 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - INSERT INTO "user" (email, role, id, hashed_password, created_at, updated_at) VALUES (%(email)s, %(role)s, %(id)s::UUID, %(hashed_password)s, %(created_at)s, %(updated_at)s)
+2026-02-08 15:05:54,738 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 58.96s ago] {'email': 'demo@12345', 'role': 'user', 'id': UUID('8be9c773-eb4b-4ac8-9db7-34ca5786ae6f'), 'hashed_password': '$2b$12$K.h.nmis8Cvr0FohhON/s.KeB9SsWn.kevCPGs2bf/nZckvecetCK', 'created_at': datetime.datetime(2026, 2, 8, 10, 5, 54, 737191), 'updated_at': datetime.datetime(2026, 2, 8, 10, 5, 54, 737455)}
+2026-02-08 15:05:54,962 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:05:56,591 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:05:56,592 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = %(pk_1)s::UUID
+2026-02-08 15:05:56,593 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 58.99s ago] {'pk_1': UUID('8be9c773-eb4b-4ac8-9db7-34ca5786ae6f')}
+2026-02-08 15:05:57,041 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:06:03,304 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:06:03,305 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 15:06:03,305 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 3684s ago] {'email_1': 'demo@12345'}
+2026-02-08 15:06:04,261 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:06:08,556 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:06:08,590 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:06:08,591 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00048s] {'user_id_1': UUID('8be9c773-eb4b-4ac8-9db7-34ca5786ae6f')}
+2026-02-08 15:06:09,043 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:06:10,935 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:06:10,936 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:06:10,936 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 2.346s ago] {'user_id_1': UUID('8be9c773-eb4b-4ac8-9db7-34ca5786ae6f')}
+2026-02-08 15:06:11,390 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:19:22,713 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select pg_catalog.version()
+2026-02-08 15:19:22,714 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 15:19:23,125 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - select current_schema()
+2026-02-08 15:19:23,126 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 15:19:23,532 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - show standard_conforming_strings
+2026-02-08 15:19:23,532 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [raw sql] {}
+2026-02-08 15:19:23,938 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:19:23,941 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - INSERT INTO task (title, description, completed, user_id, id, created_at, updated_at) VALUES (%(title)s, %(description)s, %(completed)s, %(user_id)s::UUID, %(id)s::UUID, %(created_at)s, %(updated_at)s)
+2026-02-08 15:19:23,942 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00052s] {'title': 'My First Task', 'description': 'Test task', 'completed': False, 'user_id': UUID('69a8442e-3962-40e8-8d3e-a33f12e6ed7f'), 'id': UUID('98a36fb3-a9d6-415a-beb7-437817bc0969'), 'created_at': datetime.datetime(2026, 2, 8, 10, 19, 20, 400058), 'updated_at': datetime.datetime(2026, 2, 8, 10, 19, 20, 400309)}
+2026-02-08 15:19:24,351 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:19:25,843 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:19:25,848 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.id = %(pk_1)s::UUID
+2026-02-08 15:19:25,848 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00048s] {'pk_1': UUID('98a36fb3-a9d6-415a-beb7-437817bc0969')}
+2026-02-08 15:19:26,322 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:21:28,450 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:21:28,457 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 15:21:28,458 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00073s] {'email_1': 'abcefghij456@gmmailcom'}
+2026-02-08 15:21:28,901 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-08 15:21:53,648 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:21:53,649 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 15:21:53,649 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 25.19s ago] {'email_1': 'abcdefghi@gmail.com'}
+2026-02-08 15:21:54,091 - sqlalchemy.engine.Engine - INFO - _connection_rollback_impl:2713 - ROLLBACK
+2026-02-08 15:28:36,042 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:28:36,043 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 15:28:36,044 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 427.6s ago] {'email_1': 'abc@gmail.com'}
+2026-02-08 15:28:39,613 - passlib.handlers.bcrypt - WARNING - _load_backend_mixin:622 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\AA\AppData\Roaming\Python\Python313\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-02-08 15:28:42,281 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - INSERT INTO "user" (email, role, id, hashed_password, created_at, updated_at) VALUES (%(email)s, %(role)s, %(id)s::UUID, %(hashed_password)s, %(created_at)s, %(updated_at)s)
+2026-02-08 15:28:42,282 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00072s] {'email': 'abc@gmail.com', 'role': 'user', 'id': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877'), 'hashed_password': '$2b$12$rS/itC9/T4k78gfv706htOcYsBnIBFGafVdGHcPd0F9AIbeqkzYjG', 'created_at': datetime.datetime(2026, 2, 8, 10, 28, 42, 278997), 'updated_at': datetime.datetime(2026, 2, 8, 10, 28, 42, 279292)}
+2026-02-08 15:28:42,503 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:28:44,165 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:28:44,166 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".id = %(pk_1)s::UUID
+2026-02-08 15:28:44,167 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00045s] {'pk_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:28:44,635 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:28:50,878 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:28:50,879 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 15:28:50,879 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 442.4s ago] {'email_1': 'abc@gmail.com'}
+2026-02-08 15:28:51,831 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:28:54,916 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:28:54,918 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:28:54,918 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00046s] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:28:55,370 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:28:57,022 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:28:57,022 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:28:57,023 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 2.105s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:28:57,466 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:29:16,037 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:29:16,038 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - INSERT INTO task (title, description, completed, user_id, id, created_at, updated_at) VALUES (%(title)s, %(description)s, %(completed)s, %(user_id)s::UUID, %(id)s::UUID, %(created_at)s, %(updated_at)s)
+2026-02-08 15:29:16,039 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 592.1s ago] {'title': 'ufff', 'description': 'sir dard', 'completed': False, 'user_id': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877'), 'id': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d'), 'created_at': datetime.datetime(2026, 2, 8, 10, 29, 14, 775695), 'updated_at': datetime.datetime(2026, 2, 8, 10, 29, 14, 776017)}
+2026-02-08 15:29:16,453 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:29:17,975 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:29:17,976 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.id = %(pk_1)s::UUID
+2026-02-08 15:29:17,976 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 592.1s ago] {'pk_1': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d')}
+2026-02-08 15:29:18,407 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:29:19,983 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:29:19,995 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:29:19,995 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 25.08s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:29:20,428 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:29:40,282 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:29:40,283 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.id = %(id_1)s::UUID AND task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:29:40,284 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00045s] {'id_1': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d'), 'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:29:40,757 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - UPDATE task SET description=%(description)s WHERE task.id = %(task_id)s::UUID
+2026-02-08 15:29:40,758 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00049s] {'description': 'sir dard bohat sir dard', 'task_id': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d')}
+2026-02-08 15:29:40,985 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:29:42,509 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:29:42,510 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.id = %(pk_1)s::UUID
+2026-02-08 15:29:42,510 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 616.7s ago] {'pk_1': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d')}
+2026-02-08 15:29:42,932 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:29:44,408 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:29:44,409 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:29:44,410 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 49.49s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:29:44,816 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:30:02,259 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:30:02,260 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.id = %(id_1)s::UUID AND task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:30:02,260 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 21.98s ago] {'id_1': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d'), 'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:30:02,684 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - UPDATE task SET title=%(title)s WHERE task.id = %(task_id)s::UUID
+2026-02-08 15:30:02,685 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00046s] {'title': 'ufff nhi ho rha', 'task_id': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d')}
+2026-02-08 15:30:02,896 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:30:04,436 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:30:04,437 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.id = %(pk_1)s::UUID
+2026-02-08 15:30:04,437 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 638.6s ago] {'pk_1': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d')}
+2026-02-08 15:30:04,867 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:30:06,410 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:30:06,412 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:30:06,412 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 71.49s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:30:06,847 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:30:11,492 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:30:11,493 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.id = %(id_1)s::UUID AND task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:30:11,494 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 31.21s ago] {'id_1': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d'), 'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:30:11,920 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.id = %(id_1)s::UUID AND task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:30:11,921 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 31.64s ago] {'id_1': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d'), 'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:30:12,137 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - UPDATE task SET completed=%(completed)s WHERE task.id = %(task_id)s::UUID
+2026-02-08 15:30:12,138 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00072s] {'completed': True, 'task_id': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d')}
+2026-02-08 15:30:12,351 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:30:13,862 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:30:13,863 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.id = %(pk_1)s::UUID
+2026-02-08 15:30:13,863 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 648s ago] {'pk_1': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d')}
+2026-02-08 15:30:14,291 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:30:15,816 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:30:15,817 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:30:15,818 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 80.9s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:30:16,243 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:30:51,079 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:30:51,080 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.id = %(id_1)s::UUID AND task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:30:51,080 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 70.8s ago] {'id_1': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d'), 'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:30:51,501 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - DELETE FROM task WHERE task.id = %(id)s::UUID
+2026-02-08 15:30:51,502 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [generated in 0.00047s] {'id': UUID('874fb4e9-8460-4920-8e18-fdbb60b9179d')}
+2026-02-08 15:30:51,711 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:30:53,353 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:30:53,354 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:30:53,354 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 118.4s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:30:53,790 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:51:50,326 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:51:50,327 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:51:50,328 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 1375s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:51:50,797 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:52:20,184 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:52:20,184 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 15:52:20,185 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 1852s ago] {'email_1': 'abc@gmail.com'}
+2026-02-08 15:52:21,159 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:52:22,942 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:52:22,943 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:52:22,943 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 1408s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:52:23,400 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:52:24,945 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:52:24,946 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:52:24,946 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 1410s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:52:25,373 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:52:38,816 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:52:38,817 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 15:52:38,817 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 1870s ago] {'email_1': 'abc@gmail.com'}
+2026-02-08 15:52:39,765 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:52:41,485 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:52:41,486 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:52:41,486 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 1427s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:52:41,936 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 15:52:43,531 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 15:52:43,532 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 15:52:43,532 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 1429s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 15:52:43,975 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 16:28:47,108 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 16:28:47,110 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 16:28:47,111 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 4039s ago] {'email_1': 'abc@gmail.com'}
+2026-02-08 16:28:48,361 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 16:28:50,701 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 16:28:50,702 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 16:28:50,702 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 3596s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 16:28:51,191 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 16:28:53,258 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 16:28:53,258 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 16:28:53,259 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 3598s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 16:28:53,717 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 17:04:25,164 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 17:04:25,164 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT "user".email, "user".role, "user".id, "user".hashed_password, "user".created_at, "user".updated_at 
+FROM "user" 
+WHERE "user".email = %(email_1)s
+2026-02-08 17:04:25,165 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 6177s ago] {'email_1': 'abc@gmail.com'}
+2026-02-08 17:04:26,148 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 17:04:27,971 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 17:04:27,972 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 17:04:27,972 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 5733s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 17:04:28,422 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
+2026-02-08 17:04:30,062 - sqlalchemy.engine.Engine - INFO - _connection_begin_impl:2710 - BEGIN (implicit)
+2026-02-08 17:04:30,063 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - SELECT task.title, task.description, task.completed, task.user_id, task.id, task.created_at, task.updated_at 
+FROM task 
+WHERE task.user_id = %(user_id_1)s::UUID
+2026-02-08 17:04:30,064 - sqlalchemy.engine.Engine - INFO - _execute_context:1846 - [cached since 5735s ago] {'user_id_1': UUID('3704f9d0-ac2b-4bcc-97c9-367167cca877')}
+2026-02-08 17:04:30,514 - sqlalchemy.engine.Engine - INFO - _connection_commit_impl:2716 - COMMIT
